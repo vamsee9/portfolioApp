@@ -1177,16 +1177,14 @@ input::-moz-focus-inner {
 *
 * ----------------------------------------------------------------------
 **/
+
 .topnav {
-  overflow: hidden;
-  
-  position: sticky;
-  top: 0;
+  position: fixed;
+  background-color: #00000069;
+  width: 100%;
+  z-index: 1;
 }
 
-.sticky + .content {
-  padding-top: 60px;
-}
 
 .topnav a {
   float: left;
