@@ -1,25 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="no-js" lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Works</title>
+
+    <!--- basic page needs
+   ================================================== -->
+    <meta charset="utf-8">
+    <title>Vamsee</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific meta tags
+   ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
     <!-- CSS
-       ================================================== -->
+   ================================================== -->
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- fav icons
+	================================================== -->
+    <link rel="icon" type="image/png" href="favicon.png">
+
 </head>
 
-<body>
+<body id="top">
+
     <!-- header 
-               ================================================== -->
+   ================================================== -->
     <header>
-        
-            <div class="topnav">
-                <div class="row">
+
+
+        <div class="topnav">
+            <div class="row">
                 <a href="index.html">Home</a>
 
                 <a href="about.html" title="">About</a>
@@ -33,6 +53,7 @@
 
         </div> <!-- /row -->
     </header> <!-- /header -->
+
     <!-- Portfolio Section
        ================================================== -->
     <section id="portfolio">
@@ -42,7 +63,6 @@
 
                 <h5>Portfolio</h5>
                 <h1>Check Out Some of My Works.</h1>
-
 
             </div>
         </div> <!-- /section-intro-->
@@ -56,13 +76,13 @@
 
                     <div class="bgrid folio-item">
                         <div class="item-wrap">
-                            <img src="images/portfolio/liberty.jpg" alt="Liberty">
+                            <img src="images/portfolio/iscanner.jpeg" alt="Liberty">
                             <a href="#modal-01" class="overlay">
                                 <div class="folio-item-table">
                                     <div class="folio-item-cell">
-                                        <h3 class="folio-title">Liberty</h3>
+                                        <h3 class="folio-title">Document scanner</h3>
                                         <span class="folio-types">
-                                            Graphic Design
+                                            by opennxt
                                         </span>
                                     </div>
                                 </div>
@@ -72,13 +92,13 @@
 
                     <div class="bgrid folio-item">
                         <div class="item-wrap">
-                            <img src="images/portfolio/shutterbug.jpg" alt="Shutterbug">
+                            <img src="images/portfolio/aosp.jpg" alt="aosp">
                             <a href="#modal-02" class="overlay">
                                 <div class="folio-item-table">
                                     <div class="folio-item-cell">
-                                        <h3 class="folio-title">Shutterbug</h3>
+                                        <h3 class="folio-title">Android Open Source Project</h3>
                                         <span class="folio-types">
-                                            Web Design
+                                            CTOSP
                                         </span>
                                     </div>
                                 </div>
@@ -88,13 +108,13 @@
 
                     <div class="bgrid folio-item">
                         <div class="item-wrap">
-                            <img src="images/portfolio/clouds.jpg" alt="Clouds">
+                            <img src="images/portfolio/za.jpg" alt="za">
                             <a href="#modal-03" class="overlay">
                                 <div class="folio-item-table">
                                     <div class="folio-item-cell">
-                                        <h3 class="folio-title">Clouds</h3>
+                                        <h3 class="folio-title">zombie apocalypse</h3>
                                         <span class="folio-types">
-                                            Web Design
+                                            Game Development
                                         </span>
                                     </div>
                                 </div>
@@ -104,13 +124,14 @@
 
                     <div class="bgrid folio-item">
                         <div class="item-wrap">
-                            <img src="images/portfolio/beetle.jpg" alt="Beetle">
+                            <img src="images/portfolio/electron.png" alt="electron">
                             <a href="#modal-04" class="overlay">
                                 <div class="folio-item-table">
                                     <div class="folio-item-cell">
-                                        <h3 class="folio-title">Beetle</h3>
+                                        <h3 class="folio-title">CPU Monitoring
+                                        </h3>
                                         <span class="folio-types">
-                                            Branding
+                                            desktop application
                                         </span>
                                     </div>
                                 </div>
@@ -120,13 +141,13 @@
 
                     <div class="bgrid folio-item">
                         <div class="item-wrap">
-                            <img src="images/portfolio/lighthouse.jpg" alt="Lighthouse">
+                            <img src="images/portfolio/fml.png" alt="fml">
                             <a href="#modal-05" class="overlay">
                                 <div class="folio-item-table">
                                     <div class="folio-item-cell">
-                                        <h3 class="folio-title">Lighthouse</h3>
+                                        <h3 class="folio-title">Flutter ML</h3>
                                         <span class="folio-types">
-                                            Web Development
+                                            Application Development
                                         </span>
                                     </div>
                                 </div>
@@ -134,23 +155,138 @@
                         </div>
                     </div> <!-- /folio-item -->
 
-                    <div class="bgrid folio-item">
-                        <div class="item-wrap">
-                            <img src="images/portfolio/salad.jpg" alt="Salad">
-                            <a href="#modal-06" class="overlay">
-                                <div class="folio-item-table">
-                                    <div class="folio-item-cell">
-                                        <h3 class="folio-title">Salad</h3>
-                                        <span class="folio-types">
-                                            Branding
-                                        </span>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                    </div> <!-- /folio-item -->
+                    <!-- modal popups - begin
+    	            ============================================================= -->
+                    <div id="modal-01" class="popup-modal slider mfp-hide">
 
-    </section>
+                        <div class="media">
+                            <img src="images/portfolio/modals/iscanner.png" alt="" />
+                        </div>
+
+                        <div class="description-box">
+                            <h4>Document scanner</h4>
+                            <p>ClearScan is an android document scanning library built on top of OpenCV, using the app you will be able to select the
+                            exact edges and crop the document accordingly from the selected 4 edges and change the perspective transformation of the
+                            cropped image</p>
+
+                            <div class="categories">Android application</div>
+                        </div>
+
+                        <div class="link-box">
+                            <a href="https://github.com/OpenNxt/clearscanner">Details</a>
+                            <a href="#" class="popup-modal-dismiss">Close</a>
+                        </div>
+
+                    </div> <!-- /modal-01 -->
+
+                    <div id="modal-02" class="popup-modal slider mfp-hide">
+
+                        <div class="media">
+                            <img src="images/portfolio/modals/aosp.jpg" alt="" />
+                        </div>
+
+                        <div class="description-box">
+                            <h4>Android open Source Project</h4>
+                            <p>Android is an open source operating system for mobile devices and a corresponding open source project led by Google.
+                            This site and the Android Open Source Project (AOSP) repository offer the information and source code needed to create
+                            custom variants of the Android OS, port devices and accessories to the Android platform, and ensure devices meet the
+                            compatibility requirements that keep the Android ecosystem a healthy and stable environment for millions of users.</p>
+
+                            <div class="categories">AOSP</div>
+                        </div>
+
+                        <div class="link-box">
+                            <a href="https://github.com/ctosp">Details</a>
+                            <a href="#" class="popup-modal-dismiss">Close</a>
+                        </div>
+
+                    </div> <!-- /modal-02 -->
+
+                    <div id="modal-03" class="popup-modal slider mfp-hide">
+
+                        <div class="media">
+                            <img src="images/portfolio/modals/za.jpg" alt="" />
+                        </div>
+
+                        <div class="description-box">
+                            <h4>zombie apocalypse</h4>
+                            <p>Zombie Apocalypse: Never Die Alone
+                            is the sequel to the 2009 arcade game Zombie Apocalypse. Zombie Apocalypse: Never Die Alone improves upon some of the
+                            problems the original suffered from, and it makes some new innovations of its own..</p>
+
+                            <div class="categories">Game Development</div>
+                        </div>
+
+                        <div class="link-box">
+                            <a href="https://github.com/indiegamedevelopment/ZombieApocalypse">Details</a>
+                            <a href="#" class="popup-modal-dismiss">Close</a>
+                        </div>
+
+                    </div> <!-- /modal-03 -->
+
+                    <div id="modal-04" class="popup-modal slider mfp-hide">
+
+                        <div class="media">
+                            <img src="images/portfolio/modals/electron.png" alt="" />
+                        </div>
+
+                        <div class="description-box">
+                            <h4>CPU Monitoring</h4>
+                            <p>CPU Monitoring is an desktop application made with electron js framework.</p>
+
+                            <div class="categories">Desktop application</div>
+                        </div>
+
+                        <div class="link-box">
+                            <a href="https://github.com/vamsee9/ResourceMonitor/releases">Details</a>
+                            <a href="#" class="popup-modal-dismiss">Close</a>
+                        </div>
+
+                    </div> <!-- /modal-04 -->
+
+                    <div id="modal-05" class="popup-modal slider mfp-hide">
+
+                        <div class="media">
+                            <img src="images/portfolio/modals/fml.jpeg" alt="fml" />
+                        </div>
+
+                        <div class="description-box">
+                            <h4>Flutter and Tensorflow</h4>
+                            <p>On-Device Machine Learning: Train And Run TensorFlow Lite Models In Your Flutter Apps
+                            Build, Train, and Run an Image Classifier Neural Network using Deep Transfer Learning in TensorFlow and Keras</p>
+
+                            <div class="categories">ML application Development</div>
+                        </div>
+
+                        <div class="link-box">
+                            <a href="https://github.com/vamsee9/TS_viggie_TML/releases">Details</a>
+                            <a href="#" class="popup-modal-dismiss">Close</a>
+                        </div>
+
+                    </div> <!-- /modal-05 -->
+
+
+                    <!-- modal popups - end
+    	            ============================================================= -->
+
+                </div> <!-- /portfolio-wrapper -->
+
+            </div> <!-- /twelve -->
+
+        </div> <!-- /portfolio-content -->
+
+    </section> <!-- /portfolio -->
+
+
+   
+
+
+   
+    </section> <!-- /services -->
+
+    <!-- footer
+   ================================================== -->
+
     <footer>
         <div class="row">
 
@@ -178,6 +314,15 @@
 
         </div> <!-- /row -->
     </footer>
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+    <!-- Java Script
+   ================================================== -->
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
