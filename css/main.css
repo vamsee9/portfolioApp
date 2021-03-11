@@ -1180,7 +1180,7 @@ input::-moz-focus-inner {
 
 .topnav {
   position: fixed;
-  background-color: #00000069;
+  background-color: #151515;
   width: 100%;
   z-index: 1;
 }
